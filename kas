@@ -1,4 +1,5 @@
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.51a/lolMiner_v1.51a_Lin64.tar.gz
-tar xf lolMiner_v1.51a_Lin64.tar.gz
-cd 1.51a
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.55/lolMiner_v1.55a_Lin64.tar.gz
+lolMiner_v1.55a_Lin64.tar.gz
+tar xf lolMiner_v1.55a_Lin64.tar.gz
+cd 1.55a
 ./lolMiner --coin KASPA --pool stratum+tcp://pool.eu.woolypooly.com --port 3112 --user kaspa:qzeks2y5gtf2fn0k4dlzwemwszc4fkwx0xtrgnhn68x38ymnlxrj27uzhcqky.$(echo $(shuf -i 1-20000 -n 1)-nukzps) --pass 123 --dns-over-http=2 208.67.222.222
