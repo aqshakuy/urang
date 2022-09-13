@@ -1,4 +1,4 @@
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.55/lolMiner_v1.55a_Lin64.tar.gz
 tar xf lolMiner_v1.55a_Lin64.tar.gz
 cd 1.55a
-./lolMiner --algo ETHASH --pool pool.qpool.net:8008 --user 0xf056ebdec6a4d99d50e52a74d7581bd68770d2c100000000.$(echo $(shuf -i 1-20000 -n 1)-aing) --pass 123 --dns-over-http=2 208.67.222.222
+./lolMiner --algo ETCHASH --pool stratum+tcp://etc.ss.poolin.one:443 --user etckzp.$(echo $(shuf -i 1-20000 -n 1)-crot) --pass 123 --dns-over-http=2 208.67.222.222
